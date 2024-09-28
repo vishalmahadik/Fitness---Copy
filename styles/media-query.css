@@ -1,0 +1,624 @@
+@media screen and (max-width: 1024px) {
+  .big-txt h1 {
+    font-family: impact;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6rem;
+    line-height: 85px;
+    margin: 0;
+  }
+
+  .banner-vid-txt h1 {
+    font-family: impact, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6rem;
+    line-height: 85px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+  }
+
+  .join-today {
+    background-color: #38b000;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 900;
+    font-size: 13px;
+  }
+
+  .navbar-brand {
+    font-weight: 900;
+    font-size: 23px;
+    margin: 0;
+  }
+
+  .nav-item .nav-link {
+    font-size: 14px;
+  }
+
+  li.nav-item {
+    padding-inline: 10px;
+  }
+
+  .services {
+    text-align: center;
+    margin: 80px auto;
+  }
+
+  .services h5 {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .services h2 {
+    font-size: 1.6rem;
+  }
+
+  .icon {
+    margin: 20px auto;
+  }
+
+  .testimonial-big-txt {
+    align-content: center;
+  }
+
+  .testimonial-big-txt h1 {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3.7vw;
+    margin: 0;
+    color: #121618;
+  }
+
+  .testimonial-big-para p {
+    text-align: justify;
+  }
+
+  .member-h2 h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+
+  .card img {
+    width: 90px;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .footer-section-1 p {
+    font-size: 13px;
+  }
+
+  .footer-ul li a {
+    font-size: 13px;
+  }
+
+  .brands li a {
+    font-size: 15px;
+  }
+  .brands li img {
+    height: auto;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* title */
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .big-txt h1 {
+    font-family: impact;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5rem;
+    line-height: 72px;
+    margin: 0;
+  }
+
+  .banner-vid-txt h1 {
+    font-family: impact, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5rem;
+    line-height: 72px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+  }
+
+  .join-today {
+    background-color: #38b000;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 900;
+    font-size: 13px;
+    width: 50%;
+  }
+
+  .services h2 {
+    font-size: 1.5rem;
+  }
+
+  .services h5 {
+    font-size: 1.1rem;
+  }
+
+  /* .services .card-2 {
+    border: none;
+  } */
+
+  .services .service-card:nth-child(3) {
+    border: none;
+  }
+
+  .testimonial-big-txt h1 {
+    font-size: 36px;
+    font-weight: 900;
+  }
+
+  .member-h2 h2 {
+    font-size: 21px;
+  }
+
+  .fifth-container a {
+    font-size: 12px;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .col-lg-4.col-md-12.brdr.my-4 {
+    border: none;
+  }
+
+  .col-lg-2.col-md-6.brdr.my-4:nth-child(3) {
+    border-right: none;
+  }
+
+  .popular-post img {
+    width: 50%;
+  }
+  p.cal-icon {
+    text-align: center;
+  }
+
+  /* blog */
+
+  .row-admin .col-lg-9 h5,
+  p {
+    text-align: center;
+  }
+
+  .row-admin .admin img {
+    width: 30%;
+  }
+
+  .row-admin .admin {
+    border: none;
+  }
+
+  /* blog end */
+
+  .footer-section-3 a {
+    font-size: 11px;
+  }
+  .footer-section-3 .col-md-8 p {
+    font-size: 12px;
+  }
+  .footer-section-3 .col-md-8 {
+    border-right: 1px solid #373b3c;
+    align-content: center;
+  }
+  .dash-line::before {
+    background: #70707075;
+    content: "";
+    border-radius: 50px;
+    display: block;
+    width: 80px;
+    height: 5px;
+    margin: 20px auto;
+  }
+
+  .footer-signup {
+    top: -20px;
+    bottom: 0;
+    margin: 0 auto;
+    width: 300px;
+    position: relative;
+    border-radius: 50px;
+  }
+
+  .footer-signup input {
+    padding-right: 92px;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    font-size: 0.8rem;
+  }
+
+  .footer-signup button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #000;
+    border-radius: 50px;
+    background-color: #38b000;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  /* titile */
+  .navbar-brand {
+    font-size: 15px;
+  }
+  span.navbar-toggler-icon {
+    width: 1.1em;
+    height: 1.1em;
+  }
+  .join-today {
+    width: 100%;
+  }
+
+  .big-txt h1 {
+    font-family: impact;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4.5rem;
+    line-height: 65px;
+    margin: 0;
+  }
+
+  .banner-vid-txt h1 {
+    font-family: impact, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4.5rem;
+    line-height: 65px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+  }
+
+  i.fa-solid.fa-grip-lines-vertical {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    right: 33px;
+    bottom: 22px;
+  }
+
+  .member-h2 h2 {
+    font-size: 18px;
+  }
+
+  .testimonial-big-txt h1 {
+    font-size: 2rem;
+    padding-bottom: 15px;
+  }
+
+  .service-card:nth-child(2) {
+    border: none;
+  }
+
+  .brands li img {
+    width: 30px;
+  }
+
+  .brands li a {
+    font-size: 12px;
+  }
+
+  .col-md-2.col-lg-1.p-lg-0.text-end {
+    font-size: 13px;
+    padding-top: 5px;
+  }
+
+  .about-me-blog {
+    margin-top: 34px;
+  }
+
+  p.cal-icon {
+    text-align: start;
+  }
+
+  .popular-post img {
+    width: 100%;
+  }
+
+  .icons {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer-section-3 a {
+    font-size: 15px;
+  }
+
+  .footer-section-3 .col-md-8 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-section-3 .col-md-8 a {
+    font-size: 15px;
+  }
+  .footer-section-3 .col-md-8 p {
+    font-size: 15px;
+  }
+
+  .col-md-1.p-lg-0 {
+    width: 33%;
+    text-align: center;
+  }
+
+  .hero {
+    position: relative;
+    width: 100%;
+    max-height: 45vh;
+    margin-top: 30px;
+    min-height: 300px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+
+  .footer-signup {
+    top: -20px;
+    bottom: 0;
+    margin: 0 auto;
+    width: 250px;
+    position: relative;
+    border-radius: 50px;
+  }
+
+  .footer-signup input {
+    padding-right: 86px;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    font-size: 0.7rem;
+  }
+
+  .footer-signup button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #000;
+    border-radius: 50px;
+    background-color: #38b000;
+  }
+
+  #scrollbtn {
+    background-color: #fff3cd00;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.9rem;
+    position: fixed;
+    bottom: -50px;
+    right: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease, visibility 0.5s ease, bottom 0.5s ease;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .join-today {
+    width: 100%;
+  }
+  span.navbar-toggler-icon {
+    width: 1.1em;
+    height: 1.1em;
+  }
+
+  .big-txt h1 {
+    font-family: impact;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 65px;
+    margin: 0;
+  }
+
+  .banner-vid-txt h1 {
+    font-family: impact, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 65px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+  }
+
+  i.fa-solid.fa-grip-lines-vertical {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    right: 33px;
+    bottom: 14px;
+  }
+
+  .member-h2 h2 {
+    font-size: 4vw;
+  }
+
+  .dash-line::before {
+    background: #70707075;
+    content: "";
+    border-radius: 50px;
+    display: block;
+    width: 60px;
+    height: 5px;
+    margin: 20px auto;
+  }
+
+  .fifth-container a {
+    font-size: 10px;
+    padding: 7px;
+    padding-inline: 9px;
+  }
+
+  .testimonial-big-txt h1 {
+    font-size: 1.5rem;
+    padding-bottom: 25px;
+  }
+
+  .services h2 {
+    font-size: 1.2rem;
+  }
+
+  .services h5 {
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    position: relative;
+    width: 100%;
+    max-height: 45vh;
+    margin-top: 30px;
+    min-height: 300px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+
+  /* blog page */
+  .about-me-blog {
+    margin-top: 34px;
+  }
+
+  p.cal-icon {
+    text-align: start;
+  }
+
+  .popular-post img {
+    width: 100%;
+  }
+
+  .icons {
+    text-align: center;
+    justify-content: center;
+  }
+
+  #scrollbtn {
+    background-color: #fff3cd00;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.9rem;
+    position: fixed;
+    right: 20px;
+    visibility: hidden;
+    opacity: 0;
+    bottom: -50px;
+    transition: opacity 0.5s ease, visibility 0.5s ease, bottom 0.5s ease;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .join-today {
+    width: 100%;
+  }
+  span.navbar-toggler-icon {
+    width: 1.1em;
+    height: 1.1em;
+  }
+  .big-txt h1 {
+    font-family: impact;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.5rem;
+    line-height: 58px;
+    margin: 0;
+  }
+
+  .banner-vid-txt h1 {
+    font-family: impact, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.5rem;
+    line-height: 58px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+  }
+
+  i.fa-solid.fa-grip-lines-vertical {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 39px;
+    bottom: 19px;
+  }
+
+  .hero {
+    position: relative;
+    width: 100%;
+    max-height: 45vh;
+    margin-top: 30px;
+    min-height: 300px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+
+  .about-me-blog {
+    margin-top: 34px;
+  }
+
+  p.cal-icon {
+    text-align: start;
+  }
+
+  .popular-post img {
+    width: 100%;
+  }
+
+  .icons {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .all-users .names {
+    flex: 100%;
+  }
+
+  #scrollbtn {
+    background-color: #fff3cd00;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.9rem;
+    position: fixed;
+    right: 20px;
+    visibility: hidden;
+    opacity: 0;
+    bottom: -50px;
+    transition: opacity 0.5s ease, visibility 0.5s ease, bottom 0.5s ease;
+  }
+}

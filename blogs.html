@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Active Pulse</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/media-query.css" />
+
+
+</head>
+
+<body>
+
+    <div class="container nav-section" data-aos="fade-down" data-aos-duration="2000">
+        <nav class="navbar  navbar-expand-lg bg-light">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="index.html">ACTIVE PULSE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="blogs.html">BLOGS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link working" href="#">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link working" href="#">ABOUT US</a>
+                        </li>
+                    </ul>
+                    <div class="btn join-today btn-light btn-outline-dark align-items-end">JOIN TODAY</div>
+                </div>
+            </div>
+        </nav>
+        <!-- temporary -->
+        <div id="alert-box" class="container" style="display: none;">
+            <p class="m-0 px-2">I'm currently working on this!</p>
+            <button id="close">X</button>
+        </div>
+    </div>
+    <style>
+        #alert-box p {
+            font-size: 1.2rem;
+        }
+
+        #alert-box {
+            height: 65px;
+            width: 100%;
+            border: 2px solid black;
+            border-radius: 15px;
+            align-content: center;
+            background-color: #fff3cd;
+            position: relative;
+        }
+
+        #alert-box #close {
+            position: absolute;
+            right: 4%;
+            background-color: #d6d6d600;
+            top: 23%;
+            border: none;
+            font-size: 1.5rem;
+            padding: 0 5px;
+        }
+    </style>
+    <script>
+
+        document.querySelectorAll(".working").forEach(item => {
+            item.addEventListener('click', () => {
+                document.getElementById("alert-box").style.display = "block";
+            })
+        })
+
+        document.getElementById("close").addEventListener('click', () => {
+            document.getElementById("alert-box").style.display = "none";
+        })
+    </script><!-- temporary -->
+
+    <div class="section " data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="header-page">
+            <div class="container blog-banner-txt">
+                <div class="row py-5">
+                    <h5>BLOG</h5>
+                    <h2>Body Moving</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container blog-container-1">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="card" id="card" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+                    <img src="images/blog/frame-kings-cUycI0WY3dI-unsplash (1).jpg" class="img-fluid my-0"
+                        alt="fitness-img">
+                    <div class="card-body " id="card-body">
+                        <h6 class="card-title text-start"><b>The 30-Day Abs Challenge That Actually Works</b></h6>
+                        <div class="text-start my-3">
+                            <i class="fa-solid fa-user pe-3"><a href="#">Admin</a></i>
+                            <i class="fa-solid fa-comment pe-3"> <a href="#">Comment</a></i>
+                        </div>
+                        <p class="para-1 card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+                            ad
+                            dolore, iste iusto, sint assumenda adipisci itaque ea deleniti nostrum quam dignissimos
+                            beatae amet expedita debitis ali, corrupti eum quisquam facere fugit
+                            officia error quaerat? Quam similique est officia labore sint, nam beatae, laboriosam
+                            repellat illum possimus soluta id reiciendis placeat, numquam ut ipsam dolores odit?
+                            Corrupti nihil itaque fugit velit earum est ullam explicabo libero quis fugiat quae, veniam
+                            error consequuntur voluptates dicta sunt, enim veritatis laudantium sequi optio magni eaque
+                            dolorem at. Ut nemo esse distinctio repellat ipsam numquam fugit id enim. <br> <br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptatum placeat soluta
+                            voluptates, tempore distinctio officiis sed, eum provident consequuntur laudantium,
+                            recusandae maxime. Odio iure ab ipsa eius nobis! Tempore asperiores eius minus libero et
+                            iure error eos quo quia assumenda totam ratione ipsum officia natus quos modi molestiae
+                            voluptatum sint soluta saepe totam repudiandae explicabo accusamus fugiat veritatis rem.
+                            Deserunt officia, aperiam qui perferendis eligendi minima sapiente
+                            laudantium, expedita tempore obcaecati facilis neque possimus iste impedit. Optio quis
+                            dolorum officia illo accusantium laborum aliquid nihil odio. </p> <br>
+
+                        <p class=" para-2 py-2 text-start ps-3"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Pariatur assumenda veritatis commodi unde sit illum officiis. Necedwd atibus alias
+                                architecto, est similique Lorem, ips acilis enim facere expedita nobis.voluptate, libero
+                                dolore explicabo sequi dffaaf peciatis modi tempora aperiam.</b></p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam explicabo, nemo nihil
+                            facilis, saepe porro qui blanditiis perspiciatis obcaecati iste ipsum maxime sint quod
+                            deserunt? Quaerat placeat, labore perferendis explicabo molestiae nobis tenetur ab deserunt
+                            iusto ex ipsam? Error, qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                            ipsa?</p>
+                        <hr class="my-3">
+
+                        <i class="fa-solid fa-tags my-3"><a href="">Uncategorized</a></i>
+                        <p><b>Tags: </b>&nbsp;Video, Audio, Website</p>
+                    </div>
+                </div>
+
+                <div class="row row-admin" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-sm-12 col-md-12 col-lg-3 admin">
+                        <img src="images/blog/gyn3.png" alt="admin">
+                    </div>
+                    <div class="col-lg-9 py-3">
+                        <h5>Admin</h5>
+                        <p>Lorem ipsum dolor sit!</p>
+                        <hr>
+                        <div class="row ">
+                            <div class="col-12 col-md-6">
+                                <div class="icons">
+                                    <i class="fa-solid fa-comments"></i>
+                                    <p> User Posts Counts: 36</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="icons">
+                                    <i class="fa-solid fa-user"></i>
+                                    <p> User Profile Link: <a href="">admin</a> </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row m-0" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="col-md-12 comments">
+                        <h3><b>4 Comments</b></h3>
+                    </div>
+                </div>
+
+                <div class="row  all-users ">
+                    <div class="col-md-2 users " data-aos="zoom-in" data-aos-duration="1000">
+                        <img src="images/blog/gym4.png" alt="users">
+                    </div>
+
+                    <div class="col-md-10 py-4 " data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="d-flex flex-wrap mb-3">
+                            <div class="col-6 col-md-2  names ">
+                                <p class="text-sm-start text-md-start">
+                                    Evelyn Frost
+                                </p>
+                            </div>
+                            <div class="col-6 col-md-8  names">
+                                <p class="text-sm-start text-md-start">
+                                    July 26, 2017 1:45 pm
+                                </p>
+                            </div>
+                            <div class="col-md-2 col-12 text-md-end text-center  text-sm-center">
+                                <button class="btn btn reply">reply</button>
+                            </div>
+                        </div>
+                        <p class="m-0 text-start">Anyone tried those new
+                            HIIT classes? Thinking about giving it a shot
+                            next week.
+                            Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Fugit, officiis.</p>
+
+                    </div>
+                </div>
+
+                <div class="row  all-users ">
+                    <div class="col-md-2 users" data-aos="zoom-in" data-aos-duration="1000">
+                        <img src="images/blog/gym5.png" alt="users">
+                    </div>
+
+                    <div class="col-md-10 py-4 " data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="d-flex flex-wrap mb-3">
+                            <div class="col-6 col-md-2  names ">
+                                <p class="text-sm-start text-md-start">
+                                    Liam Chen
+                                </p>
+                            </div>
+                            <div class="col-6 col-md-8  names">
+                                <p class="text-sm-start text-md-start">
+                                    October 12, 2020 7:05 am
+                                </p>
+                            </div>
+                            <div class="col-md-2 col-12 text-md-end text-center  text-sm-center">
+                                <button class="btn btn reply">reply</button>
+                            </div>
+                        </div>
+                        <p class="m-0 text-start">AThinking about hiring a personal trainer. Has anyone had a good
+                            experience with this?
+                            Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Fugit, officiis.</p>
+
+                    </div>
+
+                    <div class="row  all-users " style="width: 90%;  margin: 0 auto 20px auto; ">
+                        <div class="col-md-2 users" data-aos="zoom-in" data-aos-duration="1000">
+                            <img src="images/blog/gym6.png" alt="users">
+                        </div>
+
+                        <div class="col-md-10 py-4 " data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="d-flex flex-wrap mb-3">
+                                <div class="col-6 col-md-2  names ">
+                                    <p class="text-sm-start text-md-start">
+                                        Nico Vega
+                                    </p>
+                                </div>
+                                <div class="col-6 col-md-8  names">
+                                    <p class="text-sm-start text-md-start">
+                                        January 8, 2023 6:30 pm
+                                    </p>
+                                </div>
+                                <div class="col-md-2 col-12 text-md-end text-center  text-sm-center">
+                                    <button class="btn btn reply">reply</button>
+                                </div>
+                            </div>
+                            <p class="m-0 text-start">New to the gym scene. Any beginner-friendly workout routines you'd
+                                recommend?
+                                Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit. Fugit, officiis.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex flex-column">
+                <div class="about-me-blog " data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="300">
+                    <h5>ABOUT ME</h5>
+                    <img src="images/blog/1920-fit-man-athletic-physique-wearing-workout-attire.jpeg"
+                        class="blog-about-img" alt="body-builder">
+                    <p class="px-sm-1 px-lg-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem,
+                        assumenda!
+                        Lorem
+                        ipsum dolor sit
+                        amet.</p>
+                </div>
+
+                <div class="follow-me my-5 " data-aos="zoom-in" data-aos-duration="1000">
+                    <h5>FOLLOW ME</h5>
+
+                    <span class="socialmedia">
+
+                        <i class="bi me-4 me-sm-2 me-lg-4 bi-facebook"></i>
+
+                        <i class="bi me-4 me-sm-2 me-lg-4 bi-instagram"></i>
+
+                        <i class="bi me-4 me-sm-2 me-lg-4 bi-twitter-x"></i>
+
+                        <i class="bi me-4 me-sm-2 me-lg-4 bi-youtube"></i>
+
+                        <i class="bi  bi-envelope"></i>
+
+                    </span>
+                </div>
+
+                <div class="popular-post">
+                    <h5 class="text-center" data-aos="zoom-in" data-aos-duration="1000">POPULAR POSTS</h5>
+                    <div class="container " id="myElement5">
+
+                        <div class="row" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="col-2 p-0 col-lg-2  col-md-12 ">
+                                <img src="images/blog/gym34fsjlkjjk3jj.png" alt="">
+                            </div>
+                            <div class="col-10 col-lg-10 col-md-12 p-lg-2">
+                                <p class="cal-icon "><i class="fa-solid fa-calendar-days pe-2 "></i>12 Nov 2024</p>
+                                <p class="m-0" style="text-align: justify;"><b>Organize Your Life with 10 Simple
+                                        Rules</b></p>
+                            </div>
+                        </div>
+
+                        <div class="row" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="col-2 p-0 col-lg-2  col-md-12 ">
+                                <img src="images/blog/gym34fsjlkjjk3jj.png" alt="">
+                            </div>
+                            <div class="col-10 col-lg-10 col-md-12 p-lg-2">
+                                <p class="cal-icon "><i class="fa-solid fa-calendar-days pe-2 "></i>12 Nov 2024</p>
+                                <p class="m-0" style="text-align: justify;"><b>Organize Your Life with 10 Simple
+                                        Rules</b></p>
+                            </div>
+                        </div>
+
+                        <div class="row" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="col-2 p-0 col-lg-2  col-md-12 ">
+                                <img src="images/blog/gym34fsjlkjjk3jj.png" alt="">
+                            </div>
+                            <div class="col-10 col-lg-10 col-md-12 p-lg-2">
+                                <p class="cal-icon "><i class="fa-solid fa-calendar-days pe-2 "></i>12 Nov 2024</p>
+                                <p class="m-0" style="text-align: justify;"><b>Organize Your Life with 10 Simple
+                                        Rules</b></p>
+                            </div>
+                        </div>
+
+                        <div class="row" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="col-2 p-0 col-lg-2  col-md-12 ">
+                                <img src="images/blog/gym34fsjlkjjk3jj.png" alt="">
+                            </div>
+                            <div class="col-10 col-lg-10 col-md-12 p-lg-2">
+                                <p class="cal-icon "><i class="fa-solid fa-calendar-days pe-2 "></i>12 Nov 2024</p>
+                                <p class="m-0" style="text-align: justify;"><b>Organize Your Life with 10 Simple
+                                        Rules</b></p>
+                            </div>
+                        </div>
+
+                        <div class="row" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="col-2 p-0 col-lg-2  col-md-12 ">
+                                <img src="images/blog/gym34fsjlkjjk3jj.png" alt="">
+                            </div>
+                            <div class="col-10 col-lg-10 col-md-12 p-lg-2">
+                                <p class="cal-icon "><i class="fa-solid fa-calendar-days pe-2 "></i>12 Nov 2024</p>
+                                <p class="m-0" style="text-align: justify;"><b>Organize Your Life with 10 Simple
+                                        Rules</b></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <footer class="footer-f  bg-dark text-light">
+        <form class="form-inline  footer-signup " id="myElement" data-aos-duration="800" data-aos="zoom-in">
+            <input class="form-control " type="search" placeholder="Email" aria-label="Search">
+            <button class="btn subscribe" type="submit">Subscribe</button>
+        </form>
+        <div class="container sixth-container">
+            <div class="row py-5 aos-element footer-section-1" id="myElement2" data-aos-duration="800"
+                data-aos="fade-up">
+                <div class="col-lg-4 col-md-12 brdr my-4">
+                    <h4><a href="" style="color: white;">ACTIVEPLUS.COM</a></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quia dolor qui modi ipsam
+                        laborum voluptates odio a vero in! </p>
+                    <a href="#">Read More &rarr;</a>
+                </div>
+                <div class="col-lg-2 col-md-6 brdr my-4">
+                    <h4>Discover</h4>
+                    <ul class="footer-ul">
+                        <li><a href="#">Class Schedule</a></li>
+                        <li><a href="#">Personal Training</a></li>
+                        <li><a href="#">Nutrition Coaching</a></li>
+                        <li><a href="#">Special Events</a></li>
+                        <li><a href="#">New Member Info</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 brdr my-4">
+                    <h4>Programs</h4>
+                    <ul class="footer-ul">
+                        <li><a href="#services">Group Fitness</a></li>
+                        <li><a href="#services">Personal Training</a></li>
+                        <li><a href="#services">Cardio Classes</a></li>
+                        <li><a href="#services">Yoga & Pilates</a></li>
+                        <li><a href="#services">Senior Fitness</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6  brdr my-4">
+                    <h4>About Us</h4>
+                    <ul class="footer-ul">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="blogs.html">Blog</a></li>
+                        <li><a href="#testimonial">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 my-4 ">
+                    <h4>Connect</h4>
+                    <ul class="footer-ul">
+                        <li>
+                            <i class="bi me-2 bi-facebook"></i><a href="">Facebook</a>
+                        </li>
+                        <li>
+                            <i class="bi me-2 bi-instagram"></i><a href="">Instagram</a>
+                        </li>
+                        <li>
+                            <i class="bi me-2 bi-twitter-x"></i><a href="">X</a>
+                        </li>
+                        <li>
+                            <i class="bi me-2 bi-youtube"></i><a href="">YouTube</a>
+                        </li>
+                        <li>
+                            <i class="bi me-2 bi-envelope"></i><a href="">Newsletter Signup</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row py-3  footer-section-2">
+                <div class="col-md-12 col-lg-1 mb-2 p-lg-0">
+                    <p class="m-0">Our Partners:</p>
+                </div>
+                <div class="col-md-10 col-lg-10">
+                    <ul class="brands ">
+                        <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+                            <li><img width="45" height="45"
+                                    src="https://img.icons8.com/ios-filled/50/40C057/handshake.png" alt="handshake" />
+                                <a href="#">PowerLift Pro</a>
+                            </li>
+                            <li><img width="45" height="45"
+                                    src="https://img.icons8.com/ios-filled/50/40C057/handshake.png" alt="handshake" />
+                                <a href="#">VitaFuel</a>
+                            </li>
+                            <li><img width="45" height="45"
+                                    src="https://img.icons8.com/ios-filled/50/40C057/handshake.png" alt="handshake" />
+                                <a href="#">MuscleMax</a>
+                            </li>
+                            <li><img width="45" height="45"
+                                    src="https://img.icons8.com/ios-filled/50/40C057/handshake.png" alt="handshake" />
+                                <a href="#">Zen Yoga Studio</a>
+                            </li>
+                            <li><img width="45" height="45"
+                                    src="https://img.icons8.com/ios-filled/50/40C057/handshake.png" alt="handshake" />
+                                <a href="#">FreshBite Meal Prep</a>
+                            </li>
+                            <li><img width="45" height="45"
+                                    src="https://img.icons8.com/ios-filled/50/40C057/handshake.png" alt="handshake" />
+                                <a href="#">RunnersPro Shop</a>
+                            </li>
+                        </marquee>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-lg-1 p-lg-0">
+                    <a href="">See All &rarr; </a>
+                </div>
+            </div>
+
+            <div class="row py-5 footer-section-3">
+                <div class="col-md-8">
+                    <p>Copyright ©2024 Active Pulse. All rights reserved | Designed by
+                        <a href="#">Vishal Mahadik</a>
+                    </p>
+                </div>
+                <div class="col-md-1 p-lg-0">
+                    <a href="#"> Terms </a>
+                </div>
+                <div class="col-md-1 p-lg-0">
+                    <a href="#"> Privacy</a>
+                </div>
+                <div class="col-md-1 p-lg-0">
+                    <a href="#"> Membership</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollbtn"><i class="bi bi-arrow-up-circle-fill"></i></button>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
